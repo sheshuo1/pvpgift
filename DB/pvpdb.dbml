@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="qec_2" Class="pvpdbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=TTADMINISTRATOR;Initial Catalog=qec_2;Persist Security Info=True;User ID=sa" SettingsObjectName="pvpgift.Properties.Settings" SettingsPropertyName="qec_2ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.t_pvp_rankingList" Member="t_pvp_rankingList">
+    <Type Name="t_pvp_rankingList">
+      <Column Name="user_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="rangking" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="defense" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="attack" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="history_ranking" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="update_num" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.t_pvp_giftlog" Member="t_pvp_giftlog">
+    <Type Name="t_pvp_giftlog">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="userID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rank" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="flag" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,7 @@
+D:\pvpgift\pvpgift\obj\x86\Debug\pvpgift.csprojResolveAssemblyReference.cache
+D:\pvpgift\pvpgift\bin\Debug\pvpgift.exe.config
+D:\pvpgift\pvpgift\bin\Debug\pvpgift.exe
+D:\pvpgift\pvpgift\bin\Debug\pvpgift.pdb
+D:\pvpgift\pvpgift\bin\Debug\Hprose.Client.dll
+D:\pvpgift\pvpgift\obj\x86\Debug\pvpgift.exe
+D:\pvpgift\pvpgift\obj\x86\Debug\pvpgift.pdb
