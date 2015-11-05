@@ -64,7 +64,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="DB\pvpdb.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>pvpdb.designer.cs</LastGenOutput>

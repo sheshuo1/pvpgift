@@ -219,8 +219,8 @@ namespace pvpgift
            {
                pvpdbDataContext DB = new pvpdbDataContext();
                sendmail sm = new sendmail();
-               string flag = sm.systemSendMail(token1, userid, body1);
-               t_pvp_giftlog gl = new t_pvp_giftlog();
+               string flag = sm.systemSendMail(token1, userid, body1); //调用接口，发送邮件
+               t_pvp_giftlog gl = new t_pvp_giftlog(); //添加记录
                gl.userID = uId;
                gl.rank = rangking;
                gl.flag = flag;
